@@ -2,6 +2,7 @@
 <TITLE>Test File</TITLE>
 
 <!--#config timefmt="%A" --> <!--#echo var="DATE_LOCAL" -->
+HO HO HO
 
 </HTML>
 
