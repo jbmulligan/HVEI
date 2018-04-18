@@ -357,11 +357,20 @@ document.getElementById("defaultOpen").click();
 </script>
 
 <p>
-</p>
-<pre>
-Last update April 18, 2018
-</pre>
-<p></p>
+<script type="text/javascript">
 
+<!--
+var m = "Last update " + document.lastModified;
+document.write(m);
+ -->
+ </script>
+</p>
+
+<!--
+document.writeln("<center>");
+document.writeln("</center>");
+var p = m.length-8;
+document.write(m.substring(p, 0));
+-->
 
 </body></html>
